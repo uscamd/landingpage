@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stay tuned, we're opening the box soon..."
+title: "Stay tuned, Landing soon..."
 published: true
 ---
 
@@ -10,6 +10,7 @@ published: true
 				<div class="container">
 						<div class="row">
 								<div class="col-md-8 col-md-offset-2">
+										<!-- img class="logo" src="img/uscamd_logo.jpg" -->
 										<h2 class="brand-heading">{{ page.title }}</h2>
 										<!-- p class="intro-text">{{ site.description }}</p -->
 										<a href="#nopeak" class="btn btn-circle page-scroll">
