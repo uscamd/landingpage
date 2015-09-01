@@ -5,4 +5,4 @@ permalink: /
 published: true
 ---
 
-<h2 id="nopeak">No Peaking</h2>
+<h2 id="nopeak">No Peeking</h2>
