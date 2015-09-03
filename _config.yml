@@ -12,6 +12,19 @@ name: "USCAMD"
 # Short bio or description (displayed in the <header> section)
 description: ""
 
+address: #vcard microformat 
+  givenname:
+  middlename:
+  familyname:
+  org: "USCAMD"
+  street: "13820 Mica St"
+  city: "Santa Fe Springs"
+  state: "CA"
+  country:
+  zip: "90670"
+  tel:
+  email:
+
 # Your website URL (e.g. http://username.github.io or http://www.yourdomain.foo)
 # Used for Sitemap.xml and your RSS feed
 url: http://uscamd.github.io
