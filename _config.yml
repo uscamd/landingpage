@@ -21,6 +21,7 @@ address: #vcard microformat
   city: "Santa Fe Springs"
   state: "CA"
   country:
+  map: "https://www.google.com/maps/place/13820+Mica+St,+Santa+Fe+Springs,+CA+90670/@33.892914,-118.0375672,17z/data=!4m7!1m4!3m3!1s0x80dd2c95fb20c913:0x314c5523008f1c0f!2s13820+Mica+St,+Santa+Fe+Springs,+CA+90670!3b1!3m1!1s0x80dd2c95fb20c913:0x314c5523008f1c0f"
   zip: "90670"
   tel: "(562) 444-8844"
   email:
@@ -96,8 +97,8 @@ jquery:
   main: "/js/jquery.js"
   easing: "/js/jquery.easing.min.js"
 bootstrap:
-  css: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"  # "css/bootstrap.min.css"
-  js: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"     # "js/bootstrap.min.js"
+  css: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"  # "css/bootstrap.min.css"
+  js: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"     # "js/bootstrap.min.js"
 googlefonts: "http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,700,400italic,700italic"
 googlemaps: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" # - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
 
