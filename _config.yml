@@ -12,7 +12,7 @@ name: "USCAMD"
 # Short bio or description (displayed in the <header> section)
 description: ""
 
-address: #vcard microformat 
+address: #vcard microformat
   givenname:
   middlename:
   familyname:
@@ -22,7 +22,7 @@ address: #vcard microformat
   state: "CA"
   country:
   zip: "90670"
-  tel:
+  tel: "(562) 444-8844"
   email:
 
 # Your website URL (e.g. http://username.github.io or http://www.yourdomain.foo)
