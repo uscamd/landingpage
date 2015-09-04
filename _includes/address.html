@@ -1,20 +1,23 @@
 {% if site.address.familyname != "" or site.address.org != "" %}
 <!-- microformat: http://microformats.org/code/hcard/creator -->
 <div id="hcard" class="vcard">
+  <p>
  <span class="fn n">
     {% if site.address.givenname != "" %}<span class="given-name">{{ site.address.givenname }}</span>{% endif %}
   {% if site.address.middlename != "" %}<span class="additional-name">{{ site.address.middlename }}</span>{% endif %}
   {% if site.address.familyname != "" %}<span class="family-name">{{ site.address.familyname }}</span>{% endif %}
 </span>
- {% if site.address.org != "" %}<div class="org">{{ site.address.org }}</div>{% endif %}
- {% if site.address.email != "" %}<a class="email" href="mailto:{{ site.address.email }}">{{ site.address.email }}</a>{% endif %}
- <div class="adr">
-  {% if site.address.street != "" %}<div class="street-address">{{ site.address.street }}</div>{% endif %}
-  {% if site.address.city != "" %}<span class="locality">{{ site.address.city }}</span>, {% endif %}
-  {% if site.address.state != "" %}<span class="region">{{ site.address.state }}</span> {% endif %}
-  {% if site.address.zip != "" %}<span class="postal-code">{{ site.address.zip }}</span>{% endif %}
-  {% if site.address.country != "" %}<span class="country-name">{{ site.address.country }}</span>{% endif %}
- </div>
- {% if site.address.tel != "" %}<a href="{{ site.address.tel | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | prepend: '+1' }}" class="tel">{{ site.address.tel }}</a>{% endif %}
+  {% if site.address.map != "" %}<a href="{{ site.address.map }}" target="_blank"><i class="fa fa-map-marker fa-5x animated"></i></a>{% endif %}
+  {% if site.address.org != "" %}<div class="org">{{ site.address.org }}</div>{% endif %}
+  {% if site.address.email != "" %}<a class="email" href="mailto:{{ site.address.email }}">{{ site.address.email }}</a>{% endif %}
+  <div class="adr">
+    {% if site.address.street != "" %}<div class="street-address">{{ site.address.street }}</div>{% endif %}
+    {% if site.address.city != "" %}<span class="locality">{{ site.address.city }}</span>, {% endif %}
+    {% if site.address.state != "" %}<span class="region">{{ site.address.state }}</span> {% endif %}
+    {% if site.address.zip != "" %}<span class="postal-code">{{ site.address.zip }}</span>{% endif %}
+    {% if site.address.country != "" %}<span class="country-name">{{ site.address.country }}</span>{% endif %}
+  </div>
+  {% if site.address.tel != "" %}<a href="{{ site.address.tel | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | prepend: 'tel:+1' }}" class="tel">{{ site.address.tel }}</a>{% endif %}
+</p>
 </div>
 {% endif %}

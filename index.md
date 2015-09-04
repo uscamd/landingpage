@@ -1,8 +1,8 @@
 ---
 layout: onepage
-title: "Stay tuned, we're opening the box soon..."
+title: "Stay tuned, landing soon..."
 permalink: /
 published: true
 ---
 
-<h2 id="nopeak">No Peeking</h2>
+<h2 id="nopeeking">No Peeking</h2>
