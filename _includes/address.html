@@ -15,6 +15,6 @@
   {% if site.address.zip != "" %}<span class="postal-code">{{ site.address.zip }}</span>{% endif %}
   {% if site.address.country != "" %}<span class="country-name">{{ site.address.country }}</span>{% endif %}
  </div>
- {% if site.address.tel != "" %}<div class="tel">{{ site.address.tel }}</div>{% endif %}
+ {% if site.address.tel != "" %}<a href="{{ site.address.tel | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | prepend: '+1' }}" class="tel">{{ site.address.tel }}</a>{% endif %}
 </div>
 {% endif %}
